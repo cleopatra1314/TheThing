@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430A196C2917EA610005BEF3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430A196B2917EA610005BEF3 /* ProfileViewController.swift */; };
+		433768C129151D2C00EE690A /* homePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433768C029151D2C00EE690A /* homePageTableViewController.swift */; };
+		43379677291BBBD300410E67 /* nftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43379676291BBBD300410E67 /* nftData.swift */; };
+		4352CEF429191CDC00639E4D /* nftDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4352CEF329191CDC00639E4D /* nftDetailViewController.swift */; };
 		437D17CF2913D34500B55374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D17CE2913D34500B55374 /* AppDelegate.swift */; };
 		437D17D12913D34500B55374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D17D02913D34500B55374 /* SceneDelegate.swift */; };
 		437D17D32913D34500B55374 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D17D22913D34500B55374 /* ViewController.swift */; };
 		437D17D62913D34500B55374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437D17D42913D34500B55374 /* Main.storyboard */; };
 		437D17D82913D34600B55374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437D17D72913D34600B55374 /* Assets.xcassets */; };
 		437D17DB2913D34600B55374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437D17D92913D34600B55374 /* LaunchScreen.storyboard */; };
+		437D17E32913E29900B55374 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D17E22913E29900B55374 /* SignUpViewController.swift */; };
+		437D17E529140FD000B55374 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D17E429140FD000B55374 /* signInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430A196B2917EA610005BEF3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		433768C029151D2C00EE690A /* homePageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePageTableViewController.swift; sourceTree = "<group>"; };
+		43379676291BBBD300410E67 /* nftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nftData.swift; sourceTree = "<group>"; };
+		4352CEF329191CDC00639E4D /* nftDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nftDetailViewController.swift; sourceTree = "<group>"; };
 		437D17CB2913D34500B55374 /* TheThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437D17CE2913D34500B55374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		437D17D02913D34500B55374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		437D17D72913D34600B55374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437D17DA2913D34600B55374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		437D17DC2913D34600B55374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437D17E22913E29900B55374 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		437D17E429140FD000B55374 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				437D17D02913D34500B55374 /* SceneDelegate.swift */,
 				437D17D22913D34500B55374 /* ViewController.swift */,
 				437D17D42913D34500B55374 /* Main.storyboard */,
+				43379676291BBBD300410E67 /* nftData.swift */,
+				4352CEF329191CDC00639E4D /* nftDetailViewController.swift */,
+				430A196B2917EA610005BEF3 /* ProfileViewController.swift */,
+				433768C029151D2C00EE690A /* homePageTableViewController.swift */,
+				437D17E429140FD000B55374 /* signInViewController.swift */,
+				437D17E22913E29900B55374 /* SignUpViewController.swift */,
 				437D17D72913D34600B55374 /* Assets.xcassets */,
 				437D17D92913D34600B55374 /* LaunchScreen.storyboard */,
 				437D17DC2913D34600B55374 /* Info.plist */,
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				437D17D32913D34500B55374 /* ViewController.swift in Sources */,
+				433768C129151D2C00EE690A /* homePageTableViewController.swift in Sources */,
+				4352CEF429191CDC00639E4D /* nftDetailViewController.swift in Sources */,
 				437D17CF2913D34500B55374 /* AppDelegate.swift in Sources */,
+				437D17E32913E29900B55374 /* SignUpViewController.swift in Sources */,
+				430A196C2917EA610005BEF3 /* ProfileViewController.swift in Sources */,
 				437D17D12913D34500B55374 /* SceneDelegate.swift in Sources */,
+				43379677291BBBD300410E67 /* nftData.swift in Sources */,
+				437D17E529140FD000B55374 /* signInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +314,15 @@
 				DEVELOPMENT_TEAM = 8MUTKC7BV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheThing/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "此照片將作為個人頭貼。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "將使用相機拍攝頭貼";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +346,15 @@
 				DEVELOPMENT_TEAM = 8MUTKC7BV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheThing/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "此照片將作為個人頭貼。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "將使用相機拍攝頭貼";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
